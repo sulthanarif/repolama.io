@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+/* badan kalkulator */
+.container{
+    width: 250px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px #b6a0a0, -5px -5px 10px #ffffff;
+}
+.cal-box {
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* tampilan layar */
+#display {
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+}
+/* tampilan tombol */
+.button {
+    margin: 15px 0px 0px 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline:  none;
+    font-size: 18 px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background:#ffffff;
+    box-shadow: 5px 5px 10px #b6a0a0 , -5x -5px 10px #b6a0a0;
+    display: inline-block;
+}
+.ClearButton{ 
+    background: red;
+    color: white;
+}
+.mathbutton {
+    background: black;
+    color: white;
+}
+/* tampilan ketika ditekan */
+.ClearButton:active {
+    background: rgb(255, 60, 60);
+}
+.mathbutton:active{
+    background: rgb(73, 73, 73);
+}
+.button:active{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #b6a9a9 ;
+    background: #babecc;
+}
