@@ -67,10 +67,10 @@ header {
 }
 
 .profile-pict {
-    width: 350px;
-    height: 350px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
-    padding: 55px;
+    padding: 75px;
 }
 
 .short-intro .name {
